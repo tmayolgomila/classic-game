@@ -1,0 +1,40 @@
+.container{
+    width: 900px;
+    height: 100vh;
+    margin: 2rem auto;
+}
+.contenedor{
+    width: 570px;
+    height: 300px;
+    position: relative;
+    border: 3px solid rgb(0, 0, 0);
+    margin: 7rem auto;
+}
+.bloque{
+    height: 20px;
+    width: 100px;
+    background: #333333;
+    background: -webkit-linear-gradient(to right, #dd1818, #333333);
+    background: linear-gradient(to right, #dd1818, #333333);
+
+    position: absolute;
+}
+.usuario{
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    background: #000046;
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+    background: linear-gradient(to right, #1CB5E0, #000046);
+
+}
+.bola{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 10px;
+    background: #bc4e9c;
+    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c); 
+    background: linear-gradient(to right, #f80759, #bc4e9c); 
+
+}
